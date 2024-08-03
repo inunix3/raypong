@@ -2,7 +2,7 @@
 A clone of the ping pong game. Uses [raylib](https://www.raylib.com/) for graphics and audio, and
 [raygui](https://github.com/raysan5/raygui) for UI.
 
-![Demonstration](demo.mp4)
+![Video demonstration](https://github.com/user-attachments/assets/1d8d9859-7cee-4f96-ac31-a8e6fb93ac28)
 
 Written just for fun.
 

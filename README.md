@@ -6,13 +6,23 @@ A clone of the ping pong game. Uses [raylib](https://www.raylib.com/) for graphi
 
 Written just for fun.
 
+## Building
+You can build simply by creating `build` directory, going to it and calling cmake (e.g. `cmake ..`).
+
+Optionally, you can install by typing `sudo cmake --install .`.
+
+All assets such as sounds and images are copied into the binary file, so raypong is a single executable.
+
+## Usage
+Just type `./raypong` (or `raypong` if you have installed it)!
+
 # Controls
-| Key                  | Action                    |
-|----------------------|---------------------------|
-| `Escape`             | Exit to the main menu     |
-| `P`                  | Pause                     |
-| `W`                  | Move the left paddle up   |
-| `S`                  | Move the left paddle down |
+| Key                  | Action                     |
+|----------------------|----------------------------|
+| `Escape`             | Exit to the main menu      |
+| `P`                  | Pause                      |
+| `W`                  | Move the left paddle up    |
+| `S`                  | Move the left paddle down  |
 | `↑`                  | Move the right paddle up   |
 | `↓`                  | Move the right paddle down |
 

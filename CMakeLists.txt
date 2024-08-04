@@ -15,15 +15,10 @@ set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS OFF)
 
-if (COMPILER STREQUAL "gcc" OR COMPILER STREQUAL "clang")
-    set(COMPILE_OPTIONS -Wall -Wextra)
+set(COMPILE_OPTIONS "")
 
-    # if (NOT COMPILER STREQUAL "gcc")
-        # Those flags may report too many warnings when using GCC
-        set(COMPILE_OPTIONS ${COMPILE_OPTIONS} -Wshadow)
-        set(COMPILE_OPTIONS ${COMPILE_OPTIONS} -Wconversion)
-        set(COMPILE_OPTIONS ${COMPILE_OPTIONS} -Wsign-conversion)
-    # endif()
+if (COMPILER STREQUAL "gcc" OR COMPILER STREQUAL "clang")
+    set(COMPILE_OPTIONS -Wall -Wextra -Wshadow -Wconversion -Wsign-conversion)
 endif()
 
 set(INCLUDE_DIR "${PROJECT_SOURCE_DIR}/include")

@@ -25,7 +25,6 @@
 # pragma GCC diagnostic ignored "-Wimplicit-function-declaration"
 # pragma GCC diagnostic ignored "-Wshadow"
 # pragma GCC diagnostic ignored "-Wunused-but-set-variable"
-# pragma GCC diagnostic ignored "-Wimplicit-const-int-float-conversion"
 #elif defined(_MSC_VER)
 /* TODO: write pragma for MSVC */
 #endif

@@ -10,6 +10,7 @@
 #include <raymath.h>
 
 #include <assert.h>
+#include <stddef.h>
 
 static bool rand_bool(void) {
     return GetRandomValue(0, 1);
